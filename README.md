@@ -48,35 +48,14 @@ tsg-webdev-p03-yourname/
 └── README.md
 ```
 
-## Screenshots
-
-Replace these after taking your screenshots and saving them in a `screenshots/` folder.
-
-| Page | Desktop | Mobile |
-|------|---------|--------|
-| Home | ![Home desktop](screenshots/home-desktop.png) | ![Home mobile](screenshots/home-mobile.png) |
-| Blog | ![Blog desktop](screenshots/blog-desktop.png) | ![Blog mobile](screenshots/blog-mobile.png) |
-| Contact | ![Contact desktop](screenshots/contact-desktop.png) | ![Contact mobile](screenshots/contact-mobile.png) |
 
 ## Technologies
 
 HTML5, CSS3 (animations, Flexbox), vanilla JavaScript, Google Fonts, Font Awesome, VS Code, Git & GitHub, Netlify
 
-## Credits
-
-- **Font:** [Poppins](https://fonts.google.com/specimen/Poppins) via Google Fonts (SIL Open Font License)
-- **Icons:** [Font Awesome Free](https://fontawesome.com) (free licence)
-- **Images (all real photographs, free to use):** sourced from the free sample data bundled with the open-source [scikit-image](https://scikit-image.org) library.
-  - `post1.jpg`: "Chelsea the cat" by Stefan van der Walt, CC0. Meme text added by me.
-  - `post2.jpg`: Coffee cup by Rachel Michetti (Pikolo Espresso Bar), CC0. Caption label added by me.
-  - `post3.jpg`: Falcon 9 launch photo by SpaceX, released into the public domain.
-  - `post4.jpg`: Astronaut Eileen Collins, NASA Great Images database, public domain.
-  - `hero.jpg`: Hubble eXtreme Deep Field by NASA/HubbleSite, public domain.
 
 ## Note
 
 The contact form validates input in the browser but does not send messages, as the brief does not require a backend.
 
-## Author
 
-Your Name | yourname@example.com
