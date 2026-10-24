@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A beginner web developer's blog about learning HTML, CSS and building real projects.">
+  <title>MyBlog | Home</title>
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <a href="index.html" class="logo">My<span>Blog</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav" aria-label="Main navigation">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" class="home">
+
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <span class="shape s1" aria-hidden="true"></span>
+      <span class="shape s2" aria-hidden="true"></span>
+      <span class="shape s3" aria-hidden="true"></span>
+      <div class="hero-content">
+        <h1>
+          <span class="word"><span style="--i:0">Welcome</span></span>
+          <span class="word"><span style="--i:1">to</span></span>
+          <span class="word"><span style="--i:2">My</span></span>
+          <span class="word"><span style="--i:3" class="accent">Blog</span></span>
+        </h1>
+        <p class="hero-sub">
+          Stories and lessons about
+          <span class="rotator" aria-hidden="true"><span class="rot-list"><span>HTML</span><span>CSS</span><span>Flexbox</span><span>HTML</span></span></span>
+          <span class="sr-only">HTML, CSS and Flexbox</span>
+          from my web development journey.
+        </p>
+        <div class="hero-actions">
+          <a href="blog.html" class="btn">Read the Blog <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <a href="#stats" class="scroll-cue" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+    </section>
+
+    <section class="stats" id="stats">
+      <div class="stat reveal"><strong data-count="4">0</strong><span>Posts published</span></div>
+      <div class="stat reveal"><strong data-count="3">0</strong><span>Linked pages</span></div>
+      <div class="stat reveal"><strong data-count="1">0</strong><span>Shared stylesheet</span></div>
+      <div class="stat reveal"><strong data-count="100" data-suffix="%">0</strong><span>Mobile friendly</span></div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>HTML5</span><span>CSS3</span><span>Flexbox</span><span>Responsive Design</span><span>Git &amp; GitHub</span><span>Google Fonts</span><span>Deployment</span>
+        <span>HTML5</span><span>CSS3</span><span>Flexbox</span><span>Responsive Design</span><span>Git &amp; GitHub</span><span>Google Fonts</span><span>Deployment</span>
+      </div>
+    </div>
+
+    <section class="intro">
+      <h2 class="reveal">About This Blog</h2>
+      <p class="reveal">I'm learning web development one project at a time. This blog is where I share what I build, what breaks, and what I figure out along the way. If you're just starting out too, I hope these posts save you a few hours of confusion.</p>
+    </section>
+
+    <section class="features">
+      <div class="feature reveal">
+        <i class="fa-solid fa-code"></i>
+        <h3>Clean code</h3>
+        <p>Simple HTML structure that is easy to read, change and explain.</p>
+      </div>
+      <div class="feature reveal">
+        <i class="fa-solid fa-palette"></i>
+        <h3>Consistent design</h3>
+        <p>One stylesheet and one set of colours and fonts across every page.</p>
+      </div>
+      <div class="feature reveal">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <h3>Works everywhere</h3>
+        <p>Layouts that adapt from a large monitor down to a small phone.</p>
+      </div>
+    </section>
+
+    <section class="featured">
+      <div class="section-head reveal">
+        <h2>Latest posts</h2>
+        <a href="blog.html" class="read-more">See all posts <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="posts posts-3">
+      <article class="card reveal" data-category="meme">
+        <div class="card-img">
+          <img src="images/post1.jpg" alt="Chelsea the cat with a funny meme caption about a small CSS change breaking the whole page" loading="lazy">
+          <span class="tag"><i class="fa-solid fa-face-laugh-squint"></i> Meme</span>
+        </div>
+        <div class="card-body">
+          <p class="meta"><span class="date">October 14, 2026</span><span class="read"><i class="fa-regular fa-clock"></i> 10 sec read</span></p>
+          <h2>Me vs. "Just One Small CSS Change"</h2>
+          <p>Every beginner knows this one: a tiny margin tweak, a quick refresh, and suddenly the whole layout is on holiday. Here is the meme, plus the one habit that saved me.</p>
+          <p class="hashtags">#CSSProblems #WebDevHumor #BeginnerLife</p>
+          <a href="blog.html" class="read-more">Read on the blog <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+      <article class="card reveal" data-category="social">
+        <div class="card-img">
+          <img src="images/post2.jpg" alt="A cup of coffee on a wooden table with the caption Day 7 of 100 Days of Code" loading="lazy">
+          <span class="tag"><i class="fa-brands fa-instagram"></i> Social Post</span>
+        </div>
+        <div class="card-body">
+          <p class="meta"><span class="date">October 16, 2026</span><span class="read"><i class="fa-regular fa-clock"></i> 1 min read</span></p>
+          <h2>Day 7 of #100DaysOfCode</h2>
+          <p>Coffee, a blank editor and one goal: finish the navbar tonight. Small steps every day beat big plans once a month. Who else is coding this evening?</p>
+          <p class="hashtags">#100DaysOfCode #LearnToCode #WebDev</p>
+          <a href="blog.html" class="read-more">Read on the blog <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+      <article class="card reveal" data-category="story">
+        <div class="card-img">
+          <img src="images/post3.jpg" alt="A SpaceX Falcon 9 rocket lifting off from its launch pad" loading="lazy">
+          <span class="tag"><i class="fa-solid fa-rocket"></i> Story</span>
+        </div>
+        <div class="card-body">
+          <p class="meta"><span class="date">October 19, 2026</span><span class="read"><i class="fa-regular fa-clock"></i> 5 min read</span></p>
+          <h2>I Deployed My First Website (And Panicked)</h2>
+          <p>Pushing to GitHub, dragging a folder onto Netlify and watching a live link appear. Here is what went wrong, what went right, and what I would do differently.</p>
+          <p class="hashtags">#Deployment #Netlify #FirstLaunch</p>
+          <a href="blog.html" class="read-more">Read on the blog <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </article>
+      </div>
+    </section>
+
+    <section class="cta reveal">
+      <h2>Have a question or an idea?</h2>
+      <p>I'd love to hear what you're learning or building.</p>
+      <a href="contact.html" class="btn">Contact me <i class="fa-solid fa-arrow-right"></i></a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo">My<span>Blog</span></a>
+        <p class="footer-text">A beginner's blog about learning web development, one project at a time.</p>
+      </div>
+      <div>
+        <h3>Pages</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <div class="socials">
+          <a href="mailto:yourname@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://github.com/your-username" aria-label="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">&copy; <span id="year">2026</span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

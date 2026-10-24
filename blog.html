@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Memes, social posts, stories and tips from a beginner web developer.">
+  <title>MyBlog | Blog</title>
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <a href="index.html" class="logo">My<span>Blog</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="blog.html" class="active" aria-current="page">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="page-banner">
+    <h1>Latest Posts</h1>
+    <p>Memes, social posts, stories and tips from my learning journey.</p>
+  </section>
+
+  <main id="main">
+
+    <div class="filters" role="group" aria-label="Filter posts by topic">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="meme">Memes</button>
+      <button class="filter" data-filter="social">Social</button>
+      <button class="filter" data-filter="story">Stories</button>
+      <button class="filter" data-filter="tips">Tips</button>
+    </div>
+
+    <section class="posts" id="posts">
+
+      <article class="card reveal" data-category="meme">
+        <div class="card-img">
+          <img src="images/post1.jpg" alt="Chelsea the cat with a funny meme caption about a small CSS change breaking the whole page" loading="lazy">
+          <span class="tag"><i class="fa-solid fa-face-laugh-squint"></i> Meme</span>
+        </div>
+        <div class="card-body">
+          <p class="meta"><span class="date">October 14, 2026</span><span class="read"><i class="fa-regular fa-clock"></i> 10 sec read</span></p>
+          <h2>Me vs. "Just One Small CSS Change"</h2>
+          <p>Every beginner knows this one: a tiny margin tweak, a quick refresh, and suddenly the whole layout is on holiday. Here is the meme, plus the one habit that saved me.</p>
+          <p class="hashtags">#CSSProblems #WebDevHumor #BeginnerLife</p>
+        </div>
+      </article>
+      <article class="card reveal" data-category="social">
+        <div class="card-img">
+          <img src="images/post2.jpg" alt="A cup of coffee on a wooden table with the caption Day 7 of 100 Days of Code" loading="lazy">
+          <span class="tag"><i class="fa-brands fa-instagram"></i> Social Post</span>
+        </div>
+        <div class="card-body">
+          <p class="meta"><span class="date">October 16, 2026</span><span class="read"><i class="fa-regular fa-clock"></i> 1 min read</span></p>
+          <h2>Day 7 of #100DaysOfCode</h2>
+          <p>Coffee, a blank editor and one goal: finish the navbar tonight. Small steps every day beat big plans once a month. Who else is coding this evening?</p>
+          <p class="hashtags">#100DaysOfCode #LearnToCode #WebDev</p>
+        </div>
+      </article>
+      <article class="card reveal" data-category="story">
+        <div class="card-img">
+          <img src="images/post3.jpg" alt="A SpaceX Falcon 9 rocket lifting off from its launch pad" loading="lazy">
+          <span class="tag"><i class="fa-solid fa-rocket"></i> Story</span>
+        </div>
+        <div class="card-body">
+          <p class="meta"><span class="date">October 19, 2026</span><span class="read"><i class="fa-regular fa-clock"></i> 5 min read</span></p>
+          <h2>I Deployed My First Website (And Panicked)</h2>
+          <p>Pushing to GitHub, dragging a folder onto Netlify and watching a live link appear. Here is what went wrong, what went right, and what I would do differently.</p>
+          <p class="hashtags">#Deployment #Netlify #FirstLaunch</p>
+        </div>
+      </article>
+      <article class="card reveal" data-category="tips">
+        <div class="card-img">
+          <img src="images/post4.jpg" alt="NASA astronaut Eileen Collins smiling in her orange flight suit" loading="lazy">
+          <span class="tag"><i class="fa-solid fa-list-check"></i> Thread</span>
+        </div>
+        <div class="card-body">
+          <p class="meta"><span class="date">October 22, 2026</span><span class="read"><i class="fa-regular fa-clock"></i> 3 min read</span></p>
+          <h2>5 Beginner Mistakes I Made So You Don't Have To</h2>
+          <p>Forgetting the viewport tag, copying code I did not understand, never testing links on my phone. A quick thread in plain words, one mistake per point.</p>
+          <p class="hashtags">#WebDevTips #LearnInPublic #Thread</p>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo">My<span>Blog</span></a>
+        <p class="footer-text">A beginner's blog about learning web development, one project at a time.</p>
+      </div>
+      <div>
+        <h3>Pages</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <div class="socials">
+          <a href="mailto:yourname@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://github.com/your-username" aria-label="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">&copy; <span id="year">2026</span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
