@@ -8,8 +8,7 @@ A three-page blog website built with HTML5, CSS3 and Flexbox, with smooth animat
 ## Live Site
 
 - **Live URL:** https://your-site-name.netlify.app  <!-- replace after deploying -->
-- **Repository:** https://github.com/your-username/tsg-webdev-p03-yourname  <!-- replace after pushing -->
-
+- **Repository:** https://github.com/Kirpa-Keswani/multi-page-blog-website.git
 ## Pages
 
 | Page | File | Description |
