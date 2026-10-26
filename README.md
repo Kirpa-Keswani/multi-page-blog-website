@@ -1,13 +1,13 @@
-# MyBlog: Animated Multi-Page Blog Website
+# MyBlog:  Multi-Page Blog Website
 
-**The Sky Gen | Web Development | Project 03 (Beginner)**
+**The Sky Gen | Web Development | Project 03 **
 Ref: TSG/WD/P03/2026
 
 A three-page blog website built with HTML5, CSS3 and Flexbox, with smooth animations and a little JavaScript for interactivity. The focus of the project is linking pages together and keeping the design consistent across all of them.
 
 ## Live Site
 
-- **Live URL:** https://your-site-name.netlify.app  <!-- replace after deploying -->
+- **Live URL:** https://multiblogpage.netlify.app/
 - **Repository:** https://github.com/Kirpa-Keswani/multi-page-blog-website.git
 ## Pages
 
